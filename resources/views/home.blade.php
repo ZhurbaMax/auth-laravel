@@ -22,18 +22,20 @@
         </form>
     </div>
 @endif
+<pre>
+    </pre>
 <div class="comments_wrap2">
     <h2>Комментарии:</h2>
-    @foreach($comments as $comment)
         <ul>
-            <li>
-                <p class="user">{{ $comment->user->name}}</p>
-                <span>{{ $comment->created_at }}</span>
-                <div>{{ $comment->comment}}</div>
-                <input type="submit" name="submit" value="Ответить">
-            </li>
-        </ul>
-    @endforeach
+            @foreach($com as $k => $comments)
+                @if($k)
+                    @break
+                @endif
+                @include('layouts.comment', ['items' => $comments])
+            @endforeach
 
+        </ul>
 </div>
 @endsection
+
+

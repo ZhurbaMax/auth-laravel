@@ -26,7 +26,8 @@ class HomeController extends Controller
     public function index()
     {
         $comments = Comment::with('user')->latest('created_at')->get();
-        return view('home', compact('comments'));
+        $com = $comments->groupBy('parent_id');
+        return view('home', compact('com'));
     }
 
     public function addComment(Request $request)
