@@ -18,6 +18,10 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 
-Route::any('/add-comment', 'HomeController@addComment')->name('layout.home');
+Route::post('/add-comment', 'HomeController@addComment')->name('layout.home');
+
+//Route::any('/add-new-comment', 'HomeController@saveComment')->name('layout.comment');
+
+
 
 

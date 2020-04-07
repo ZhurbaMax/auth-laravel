@@ -8,9 +8,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ URL::asset('js/forms.js')}}" defer></script>
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/style.css') }}" />
-
 </head>
 <body>
     <div id="app">

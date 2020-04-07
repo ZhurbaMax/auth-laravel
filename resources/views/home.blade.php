@@ -4,6 +4,7 @@
 <div id="comments-header">
     <h1>Страница Комментариев</h1>
 </div>
+
 @if(Auth::check())
     <div id="comments-form">
         <h3>Пожалуйста оставте свой коментарий</h3>
@@ -22,8 +23,6 @@
         </form>
     </div>
 @endif
-<pre>
-    </pre>
 <div class="comments_wrap2">
     <h2>Комментарии:</h2>
         <ul>
@@ -33,7 +32,6 @@
                 @endif
                 @include('layouts.comment', ['items' => $comments])
             @endforeach
-
         </ul>
 </div>
 @endsection

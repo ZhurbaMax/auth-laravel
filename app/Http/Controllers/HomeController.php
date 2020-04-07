@@ -7,7 +7,10 @@ use App\Comment;
 use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
+
 {
+
+    private $result;
     /**
      * Create a new controller instance.
      *
@@ -27,6 +30,7 @@ class HomeController extends Controller
     {
         $comments = Comment::with('user')->latest('created_at')->get();
         $com = $comments->groupBy('parent_id');
+        //dd($com);
         return view('home', compact('com'));
     }
 
@@ -35,8 +39,20 @@ class HomeController extends Controller
         $comment = Comment::create([
             'comment' => $request->comment,
             'user_id' => Auth::user()->id,
+            'parent_id' => $request->input('parent_id'),
+
         ]);
         return redirect()->route('home');
     }
+/*
+    public function saveComment(Request $request)
+    {
+        Comment::create([
+            'comment' => $request->input('comment'),
+            'user_id' => Auth::user()->id,
+            'parent_id' => $request->input('parent_id'),
+        ]);
+    }
+*/
 
 }
