@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6742ae3-b74b-4dd9-b528-3aa394f8e6be" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/js/forms.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/comment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/comment.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -176,7 +174,7 @@
       <workItem from="1586157449327" duration="4789000" />
       <workItem from="1586163259110" duration="23671000" />
       <workItem from="1586202765963" duration="2316000" />
-      <workItem from="1586243362797" duration="27739000" />
+      <workItem from="1586243362797" duration="45008000" />
     </task>
     <task id="LOCAL-00001" summary="HomeController.php, Comment.php, User.php, home.blade.php, comment.blade.php, RouteServiceProvider.php">
       <created>1586205090432</created>
@@ -185,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586205090432</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HomeController.php, home.blade.php, comment.blade.php,">
+      <created>1586273450370</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586273450370</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,16 +198,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HomeController.php, Comment.php, User.php, home.blade.php, comment.blade.php, RouteServiceProvider.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeController.php, Comment.php, User.php, home.blade.php, comment.blade.php, RouteServiceProvider.php" />
+    <MESSAGE value="HomeController.php, home.blade.php, comment.blade.php," />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeController.php, home.blade.php, comment.blade.php," />
   </component>
   <component name="WindowStateProjectService">
-    <state x="447" y="6" key="CommitChangelistDialog2" timestamp="1586205089870">
+    <state x="260" y="6" key="CommitChangelistDialog2" timestamp="1586342319014">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586205089870" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586205093611">
+    <state x="260" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1586342319014" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1586273451999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586205093611" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1586273451999" />
   </component>
 </project>

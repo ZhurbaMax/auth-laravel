@@ -4,7 +4,6 @@
 <div id="comments-header">
     <h1>Страница Комментариев</h1>
 </div>
-
 @if(Auth::check())
     <div id="comments-form">
         <h3>Пожалуйста оставте свой коментарий</h3>
@@ -35,5 +34,3 @@
         </ul>
 </div>
 @endsection
-
-
